@@ -1,0 +1,27 @@
+app:
+  #gitea base url
+  giteaUrl: "http://gitea.local"
+
+  #gitea access token
+  giteaToken: "******"
+
+  #repos owner in gitea
+  giteaOrganization: "import-github"
+
+  #GitHub personal access token (for private repos and higher API rate limits)
+  githubToken: "******"
+
+  #mirror synchronization interval
+  mirrorInterval: "24h0m0s"
+
+  #make new repository private
+  private: false
+
+  #import repo features (all disabled by default)
+  issues: false
+  labels: false
+  lfs: false
+  milestones: false
+  pullRequests: false
+  releases: false
+  wiki: false
